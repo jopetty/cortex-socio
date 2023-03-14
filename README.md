@@ -17,6 +17,7 @@ conda activate crtx
 python download.py
 
 # Transcode episodes from .mp3 to .wav using ffmpeg
+chmod +x encode.sh
 ./encode.sh
 
 # Transcribe downloaded episodes

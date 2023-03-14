@@ -2,7 +2,16 @@ name: crtx
 
 dependencies:
   - python=3.10
-  - conda-forge::beautifulsoup4
-  - conda-forge::python-dotenv
-  - conda-forge::urllib3
-  - conda-forge::tqdm
+  - conda-forge::beautifulsoup4=4.11.2
+  - conda-forge::python-dotenv=1.0.0
+  - conda-forge::urllib3=1.26.14
+  - conda-forge::tqdm=4.65.0
+  - conda-forge::pandas=1.5.3
+  - conda-forge::numpy=1.24.2
+  - conda-forge::ipykernel=6.21.2
+  - conda-forge::openblas=0.3.21
+  - conda-forge::scipy=1.10.1
+  - conda-forge::matplotlib
+  - conda-forge::fire
+  - conda-forge::scikit-learn
+  - conda-forge::statsmodels

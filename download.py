@@ -36,11 +36,9 @@ def main():
     base_url = "https://www.relay.fm/cortex/"
     download_a_class = "js-audio"
     max_episode_num = 138
-    DOWNLOAD_PATH = ""
+    DOWNLOAD_PATH = os.environ.get("CORTEX_DOWNLOAD_PATH")
 
-    print(DOWNLOAD_PATH)
-
-    for i in tqdm(range(1,max_episode_num, 10)):
+    for i in tqdm(range(1,max_episode_num, 5)):
 
         ep_url = base_url + str(i)
         
